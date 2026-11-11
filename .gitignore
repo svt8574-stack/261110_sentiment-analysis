@@ -1,0 +1,15 @@
+# Node.js 의존성 폴더
+node_modules/
+
+# 환경 변수 파일 (API 키 및 비밀키 보호)
+.env
+.env.*
+!.env.example
+
+# Vercel 로컬 빌드 및 캐시 폴더
+.vercel/
+
+# 운영체제 생성 임시 파일
+.DS_Store
+Thumbs.db
+

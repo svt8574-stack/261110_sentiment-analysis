@@ -1,0 +1,21 @@
+{
+  "name": "ondo-sentiment-service",
+  "version": "1.0.0",
+  "description": "온도 (ONDO) - 한국어 중심 감성 분석 웹 서비스 MVP",
+  "type": "module",
+  "main": "api/analyze.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "check": "node --check api/analyze.js && node --check public/js/app.js && node --test test/*.test.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "dotenv": "^16.4.7",
+    "openai": "^4.86.1"
+  },
+  "devDependencies": {
+    "vercel": "^41.3.1"
+  }
+}
+

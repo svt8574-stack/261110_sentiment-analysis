@@ -6,7 +6,6 @@
   "main": "api/analyze.js",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required for static HTML/JS'",
     "check": "node --check api/analyze.js && node --check public/js/app.js && node --test test/*.test.js",
     "test": "node --test test/*.test.js"
   },

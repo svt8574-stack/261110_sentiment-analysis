@@ -1,19 +1,8 @@
 {
-  "version": 2,
-  "cleanUrls": true,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
-    {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/api/analyze",
+      "destination": "/api/analyze.js"
     }
   ]
 }
-
